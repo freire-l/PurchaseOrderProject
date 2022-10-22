@@ -49,8 +49,7 @@ public class PurchaseOrder {
 
       public void addProduct(Product product){
        if(productCount <= 3) {
-           products[productCount] = product;
-           productCount++;
+           products[productCount++] = product;
        }
       }
 
